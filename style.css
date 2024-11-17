@@ -262,7 +262,10 @@ nav.navbar.bootsnav {
     font-family: serif;
     
 }
-
+.single-how-works-icon{
+	font-size: 20px;
+	color:#184d71;
+}
 #works .section-header h2{
     font-family: "Bungee Shade", sans-serif;
   font-weight: 400;
