@@ -192,7 +192,7 @@ hr{
 
 
  #home .container{
-    background-image: url("./trvl1.jpg");
+    background-image: url("../images/explore/trvl1.jpg");
     background-size: cover;
 }
 
@@ -342,7 +342,10 @@ nav.navbar.bootsnav {
     margin-bottom: 30px;
    
 }
-
+.single-list-topics-icon{
+    font-size: 40px;
+    color: #184d71;
+}
 .single-how-works-icon {
     display: inline-block;
     width: 80px;
