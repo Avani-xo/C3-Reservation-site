@@ -1,0 +1,657 @@
+/*==================================
+* Author        : "ThemeSine"
+* Template Name : Listrace  HTML Template
+* Version       : 1.0
+==================================== */
+
+/*==================================
+font-family: 'Roboto', sans-serif;
+==================================== */
+
+
+/*=========== TABLE OF CONTENTS ===========
+1.  General css (Reset code)
+2.  Header-top
+3.  Top-area
+4.  Welcome-hero
+5.  List-topics
+6.  Works  
+7.  Explore
+8.  Reviews
+9.  Counter
+10. Blog
+11. Subscribe
+12. Footer
+==========================================*/
+
+/*-------------------------------------
+		1.General css (Reset code)
+--------------------------------------*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+*{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	box-sizing:border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size:14px;
+	color:#000000;
+    text-transform:initial;
+    max-width:1920px;
+    margin:0 auto;
+	overflow-x:hidden;
+    font-weight: 100;
+}
+.header-top-contact{
+    font-weight: 600;
+}
+a,a:hover,a:active,a:focus {
+	display:inline-block;
+	text-decoration:none;
+	color: #343a3f;
+	font-size:16px;
+	padding:0;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+h1,h2,h3,h4,h5,h6 { 
+	margin: 0;
+	color:#ffffff;
+    font-size: 7rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: "Exo 2", sans-serif;
+    
+    
+    
+}
+.header-top-left .lc{
+    font-weight: 400;
+}
+.hd{
+    background-color: #e3ebf1;
+}
+p {
+	margin: 0;
+	color:#406b8d;
+	font-size: 13px;
+    font-weight: 500;
+    line-height: 1.8;
+    text-transform: initial;
+}
+img{
+    border:none;max-width:100%; height:auto;
+}
+ul{
+	padding: 0;
+    margin: 0 auto;
+    list-style: none;
+}
+ul li {
+	list-style: none;
+	
+}
+select,input,textarea,button{box-shadow:none;outline:0!important;}
+button {background: transparent;border: 0;font-size: 12px;}
+
+html,body{height: 100%;}
+
+
+/* section-header */
+.section-header{
+    position: relative;
+    text-align: center;
+}
+.section-header h2{
+    color: #505866;
+    font-size:24px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+}
+.section-header h2 span{text-transform: lowercase;}
+.section-header p{
+    font-size:16px;
+}
+/* section-header */
+.fix{position: relative;clear: both;}
+/*=============Style css=========*/
+
+
+/*-------------------------------------
+        2. Header-top
+--------------------------------------*/
+.header-top{
+    border-bottom:1px;
+}
+
+.header-top ul li {
+    display: inline-block;
+}
+
+.header-top-left li,.header-top-right li  {
+    display: inline-block;
+}
+
+
+
+
+
+/*.select-opt*/
+.select-opt,.header-top-contact{
+    padding: 10px 18px;
+    border-right: 1px solid #f6f8fa;
+}
+.header-top-contact{
+    border-right: 0;
+    border-left: 1px solid #f6f8fa;
+    font-size: 12px;
+    
+}
+.select-opt select {
+    border: none;
+    cursor:pointer;
+    color:#000000;
+    font-size: 12px;
+    font-weight: 700;
+}
+.select-opt option{
+    color:#a7b0ba;
+    text-transform: uppercase;
+}
+.select-opt a span.lnr-magnifier:before {
+    font-size: 12px;
+    color: #373939;
+}
+.select-opt a span.lnr-magnifier:before {
+    font-size: 12px;
+    color: #373939;
+}
+/*.select-opt*/
+.header-top-right ul li a{
+    color:#000000;
+    font-weight: 600;
+    font-size: 12px;
+}
+hr{
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333;  /* old IE */
+    background-color: #333;
+}
+
+
+
+ #home .container{
+    background-image: url("../images/explore/trvl1.jpg");
+    background-size: cover;
+}
+
+
+/*-------------------------------------
+        3. Top-area
+--------------------------------------*/
+nav.navbar.bootsnav {
+    background-color:#fff;
+    border-bottom: transparent;
+}
+.wrap-sticky nav.navbar.bootsnav.sticked {background-color: #fff;box-shadow: 0 2px 5px rgba(0,0,0,.2);}
+
+
+
+
+
+
+.navbar-brand span{
+    font-family: "Zilla Slab Highlight", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+
+/*.navbar-brand*/
+.navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus {
+    display: inline-block;
+    color: #184d71;
+    font-size: 20px;
+    padding: 34px 0px;
+    
+}
+
+/*-------------------------------------
+        4.  Welcome-hero
+--------------------------------------*/
+.welcome-hero {
+    position: relative;
+    background-position:center;
+   
+    text-align: center;
+    height:500px;
+    z-index: 1;
+}
+.welcome-hero:before{
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+ 
+}
+.welcome-hero-txt { padding-top: 155px;}
+
+.welcome-hero-txt h2 {
+    font-size: 5rem;
+}
+.welcome-hero-txt p {
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #000000;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-family: serif;
+    
+}
+
+#works .section-header h2{
+    font-family: "Bungee Shade", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#explore .section-header h2{
+    font-family: "Bungee Shade", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
+
+/*-------------------------------------
+        5. List-topuics
+--------------------------------------*/
+
+.list-topics-content {
+    display: flex;
+    position: relative;
+    top: -98px;
+    z-index: 1;
+}
+.list-topics-content ul li { display: inline-block;}
+.list-topics-content .tpc{
+    display: flex;
+}
+.cpr{
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    color: #184d71;
+    font-weight: 300;
+}
+.single-list-topics-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 205px;
+    height: 170px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0px 10px rgba(71,71,71,.2);
+    
+}
+
+.single-list-topics-icon [class^="flaticon-"]:before,.single-list-topics-icon [class*=" flaticon-"]:before,.single-list-topics-icon [class^="flaticon-"]:after,.single-list-topics-icon [class*=" flaticon-"]:after {font-size: 45px;color:#343a3f;}
+
+.welcome-hero-btn{
+    font-weight: 400;
+    background-color: #393939;
+    color: #ffffff;
+    border: 2px solid;
+    padding: 1rem;
+}
+.welcome-hero-btn:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/*-------------------------------------
+        6. Works 
+--------------------------------------*/
+#works .container{
+    border: 3px solid;
+    padding: 3rem 3rem;
+}
+.works{padding: 0 0 90px;}
+.works-content {margin-top: 73px;}
+
+.single-how-works{
+    text-align: center;
+    padding:50px 42px;
+    box-shadow: 0 0px 5px rgba(71,71,71,.2);
+    margin-bottom: 30px;
+   
+}
+
+.single-how-works-icon {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.single-how-works h2 a {
+    font-size:  18px;
+    margin: 35px 0 20px;
+}
+.single-how-works h2 a span {text-transform:  lowercase;}
+.single-how-works p {margin-bottom: 25px;text-transform: initial;}
+
+.single-how-works-icon [class^="flaticon-"]:before,.single-how-works-icon [class*=" flaticon-"]:before,.single-how-works-icon [class^="flaticon-"]:after,.single-how-works-icon [class*=" flaticon-"]:after {font-size: 35px;}
+
+.welcome-hero-btn .how-work-btn {
+    display: inline-block;
+    margin: 0;
+    width: 100px;
+    height: 35px;
+    font-size: 12px;
+    background: transparent;
+    color: #393939;
+    border: 1px solid #d3d6d9;
+    border-radius: 3px;
+    font-weight: 300;
+}
+
+
+
+/*-------------------------------------
+        7. Explore
+--------------------------------------*/
+.explore{
+    padding:117px 0 95px;
+    background: #f8fafb;
+}
+#explore .container{
+    border: 3px solid;
+    padding: 3rem 3rem;
+}
+.explore-content{margin-top: 78px;}
+
+.single-explore-item {
+    background: #fff;
+    border: 1px solid #edeff1;
+    margin-bottom: 25px;
+    
+}
+.single-explore-img{position:relative;overflow: hidden;}
+.single-explore-img:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(162,172,177,.2);
+}
+.single-explore-img-info {
+    position: absolute;
+    bottom:-20px;
+    left: 0;
+    width: 100%;
+    opacity:0;
+    visibility:hidden; 
+}
+
+
+.single-explore-img-info button{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    width: 83px;
+    height: 21px;
+    text-align: center;
+    
+}
+.single-explore-image-icon-box {
+    text-align: right;
+    position: absolute;
+    bottom: 10px;
+    right:  10px;
+}
+.single-explore-image-icon-box ul li {
+    display:  inline-block;
+    width: 30px;
+    height:  28px;
+    
+    background: #252d32;
+    text-align:  center;
+    margin-left:  5px;
+    
+}
+
+.single-explore-txt {
+    padding: 26px 25px 24px 15px;
+}
+
+.explore-rating-price a {margin:0;}
+.explore-rating {
+    display: inline-block;
+    width: 32px;
+    height: 20px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.explore-price-box {
+    display: inline-block;
+    padding: 0 10px;
+    margin: 0 8px;
+  
+}
+.explore-person {
+    padding-bottom: 28px;
+    border-bottom: 1px solid #e1e5eb;
+}
+
+.explore-person-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.explore-person p {font-size: 12px;}
+.explore-open-close-part {
+    margin-top: 10px;
+}
+
+
+.close-btn{
+    font-weight: 500;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 0.7rem ;
+}
+.close-btn:hover{
+    background-color: #000000;
+    border: #000000 2px solid;
+    color: #e1e5eb;
+}
+
+
+/*-------------------------------------       
+        9.  Counter
+--------------------------------------*/
+.statistics{
+    position:relative;
+    display: flex;
+    align-items: center;
+    background-position:center;
+    background-size:cover;
+    padding:127px 0 120px;
+}
+.statistics:before{
+    position:absolute;
+    content:'';
+    background: rgba(0, 33, 95, 0.6);
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+}
+/* single-ststistics-box */
+.single-ststistics-box {
+    text-align: center;
+    margin-bottom:30px;
+
+}
+/* single-ststistics-box */
+.statistics-content{
+    display: flex;
+    justify-content: center;
+    color:#fff;
+    font-size:60px;
+}
+.statistics-content span {
+    margin-left: 5px;
+}
+.single-ststistics-box h3{
+    color:#fff;
+    font-size:24px;
+    text-transform:capitalize;
+    font-weight: 500;
+}
+
+.appsLand-btn{
+    font-weight: 400;
+
+}
+.appsLand-btn:hover{
+    background-color: #184d71;
+    color: white;
+}
+#contact form input{
+    font-weight: 300;
+}
+
+/*-------------------------------------
+        11. Subscribe
+--------------------------------------*/
+.subscription{
+  
+    padding:150px 0;
+}
+/*subscribe-title*/
+ .subscribe-title {margin-bottom: 52px;}
+
+.subscribe-title p{
+   
+    font-size:16px;
+    margin-top: 28px;
+
+}/*subscribe-title*/
+
+
+/*custom-input-group*/
+.subscription-input-group {
+    position: relative;
+    
+    max-width: 630px;
+    margin:0 auto;
+}
+
+.subscription-input-group .subscription-input-form{
+    display: inline-block;
+    width: 500px;
+    height: 60px;
+    padding-left:20px;
+    border:1px solid black;
+    
+    
+}
+
+/*custom-input-group*/
+
+/*appsLand-btn*/
+.appsLand-btn {
+    position: absolute;
+    display: inline-block;
+    width: 120px;
+    height: 60px;
+    line-height: 60px;
+    border:1px solid black;
+    font-size: 14px;
+    margin-left:5px;
+}
+
+
+/*appsLand-btn*/
+
+/*-------------------------------------
+        12. Footer
+--------------------------------------*/
+.footer-menu {padding: 45px 0;}
+.footer-menu .navbar-header{padding:0;}
+.fmi{
+    background-color: #184d71;
+    padding: 0.5rem 1rem ;
+}
+.footer-menu ul.footer-menu-item{text-align: right;}
+.footer-menu ul.footer-menu-item li{display: inline-block;}
+.footer-menu ul.footer-menu-item li a {
+    color: #ffffff;
+    font-size: 14px;
+    padding-left: 40px;
+    
+}
+
+
+.footer-social {
+    text-align: right;
+    border: 2px #184d71 solid;
+    padding: 0.5rem 1rem;
+}
+.footer-social .fa-phone:before {
+    position: relative;
+    top: 2px;
+}
+.footer-social a ,.footer-social span {
+    display: inline-block;
+    color: #184d71;
+    font-size: 14px;
+    margin-left: 15px;
+   
+}
+.footer-social a {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background: #eef2f6;
+    text-align: center;
+    border-radius: 50%;
+}
+ #works .container{
+    background-color: #e3ebf1;
+}
+#works .single-how-works{
+    background-color: white;
+}
+#explore .container{
+    background-color: #e3ebf1;
+}
+#footer{
+    background-color: #e3ebf1;
+}
+
+@keyframes example {
+    0%   {bottom:0px;}
+    100%  {bottom:7px;}
+}
+/*========================Thank you=================
